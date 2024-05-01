@@ -11,7 +11,6 @@ public class Main {
 			System.out.println("Superficie: "+p.getSuperficie()+" km²");
 			System.out.println("Densidad Poblacional: " +p.calcularDensidadPob()+" hab./km²");
 		}
-
 	}
 
 }
