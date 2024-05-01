@@ -5,12 +5,8 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Scanner;
 
-import ar.edu.unju.fi.ejercicio01.model.Producto;
-import ar.edu.unju.fi.ejercicio01.model.Producto.Categoria;
-import ar.edu.unju.fi.ejercicio01.model.Producto.OrigenFabricacion;
 import ar.edu.unju.fi.ejercicio02.constantes.Mes;
 import ar.edu.unju.fi.ejercicio02.model.Efemeride;
-import ar.edu.unju.fi.ejercicio17.model.Jugador;
 
 public class Main {
 
