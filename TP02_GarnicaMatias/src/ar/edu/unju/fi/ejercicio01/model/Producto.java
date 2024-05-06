@@ -6,6 +6,7 @@ public class Producto {
 	private double precioUni;
 	 private OrigenFabricacion origenFabricacion;
 	 private Categoria categoria;
+	 private boolean estado;
 	 
 	 public String getCodigo() {
 		return codigo;
@@ -66,6 +67,26 @@ public class Producto {
 	           "Origen de Fabricacion: " + origenFabricacion + "\n"+
 	           "Categoria: " + categoria +"\n";
 	}
+	
+	
+	public Producto(String codigo, String descripcion, double precioUni, OrigenFabricacion origenFabricacion,
+			Categoria categoria, boolean estado) {
+		super();
+		this.codigo = codigo;
+		this.descripcion = descripcion;
+		this.precioUni = precioUni;
+		this.origenFabricacion = origenFabricacion;
+		this.categoria = categoria;
+		this.estado = estado;
+	}
+	
+	public boolean isEstado() {
+		return estado;
+	}
+	public void setEstado(boolean estado) {
+		this.estado = estado;
+	}
+	
 	
 	 
 
